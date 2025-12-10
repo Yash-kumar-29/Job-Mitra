@@ -1,0 +1,60 @@
+# Git attributes
+# Preserve text=auto for consistent line endings
+* text=auto
+
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+public/build/
+
+# Vite and bundler caches
+.vite/
+.parcel-cache/
+
+# Logs
+npm-debug.log*
+Yarn-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+public/temp/
+
+# Misc
+*.local
+*.suo
+.ntvs
+*.njsproj
+*.sln
+*.swp
+
+# Optional lock files (uncomment if you want to ignore lock files)
+# package-lock.json
+# yarn.lock
+* text=auto
